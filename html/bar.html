@@ -3,7 +3,43 @@
 <head>
     <meta charset='utf-8'>
     <title>Page Title</title>
+    <style>
+        #head ul {
+        float: right;
+        list-style-type: none;
+        text-align: center;
+        padding: 30px;
+        margin-top: 100px;
+        margin-right: 100px;
+        }
+
+    #head li{
+        display: inline-block;
+        background-color: rgb(138,178,191);
+        width:120px;
+        height:40px;
+        text-align: center;
+        box-shadow: 3px 3px 5px gray;
+    }
+    #head a{
+    text-decoration: none;
+    display: block;
+    height: 100%;
+    padding: 10px;
+    }
+</style>
 </head>
-<body background="../image/back2.jpg">
+<body vlink="white" alink="red">
+     <header id="head">  
+         <img class="logo" src=../image/logo.png>
+                  
+        <ul>
+            <li><a target="right" href="index_1.html">홈</a></li>
+            <li><a target="right" href="intro_1.html">자기소개</a></li>
+            <li><a target="right" href="photo_1.html">사진</a></li>
+            <li><a target="right" href="https://github.com/peak159852">나의 git</a></li>
+        </ul>
+ 
+      </header>
 </body>
 </html>
